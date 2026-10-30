@@ -11,7 +11,7 @@ spring:
 aws: 
   region: ${SPRING_REGION}
   access-key-id: ${SRING_ACCESS_KEY}
-  secret-acces-key: ${SPRING_SECRET_ACCESS}
+  secret-acces-key: ${SPRING_SECRET_ACCES}
   session-token: ${SPRING_TOKEN_SESSION}
         
         
