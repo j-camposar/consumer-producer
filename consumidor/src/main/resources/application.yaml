@@ -8,5 +8,10 @@ spring:
       auto-offset-reset: earliest
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+aws: 
+  region: ${SPRING_REGION}
+  access-key-id: ${SRING_ACCESS_KEY}
+  secret-acces-key: ${SPRING_SECRET_ACCESS}
+  session-token: ${SPRING_TOKEN_SESSION}
         
         
